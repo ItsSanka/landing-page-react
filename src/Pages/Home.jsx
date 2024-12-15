@@ -1,14 +1,15 @@
 import HeaderSection from "../components/HeaderSection";
-
+import Hero from "../components/Hero";
 
 function Home() {
   return (
     <>
-      <div className="container-fluid">
-        <div className="container">
-            <HeaderSection/>
-        </div>
-      </div>
+      <header>
+        <HeaderSection />
+      </header>
+      <main>
+        <Hero />
+      </main>
     </>
   );
 }
